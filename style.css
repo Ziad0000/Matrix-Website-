@@ -868,6 +868,15 @@ header {
         top: 30px;
         left: 205px;
     } 
+    #language {
+        background-color: black;
+        bottom: 20px;
+        top: 30px;
+        left: 150px;
+    }
+    #language option{
+        color: white;
+    }
     #language2 {
         background-color: var(--border-top-color);
         bottom: 50px;
@@ -892,7 +901,18 @@ header {
     .up.show{
         right: 10px;
     }
-
+        #language2 {
+        background-color: var(--border-top-color);
+        bottom: 50px;
+        top: 13px;
+        left: 15px;
+    }
+    #language2 option{
+        color: var(--accent-color);
+    }
+    ::selection{
+    color: navy;
+}
 }
 
 
