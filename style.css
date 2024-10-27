@@ -868,14 +868,14 @@ header {
         top: 30px;
         left: 205px;
     } 
-    #language {
-        background-color: black;
-        bottom: 20px;
-        top: 30px;
-        left: 150px;
+    #language2 {
+        background-color: var(--border-top-color);
+        bottom: 50px;
+        top: 13px;
+        left: 15px;
     }
-    #language option{
-        color: white;
+    #language2 option{
+        color: var(--accent-color);
     }
     .up{
         bottom: 110px;
