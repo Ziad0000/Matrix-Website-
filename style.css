@@ -839,8 +839,8 @@ header {
     .message-image{ 
         width: 300px;
         height: auto;
-        left: 25px;
-        top: 65px;
+        left: 0;
+        top: 0;
         border-radius: 15px;
         position: absolute;
         bottom: 210px;
