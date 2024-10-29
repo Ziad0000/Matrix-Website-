@@ -825,7 +825,7 @@ header {
         /* display: none; */
         position: fixed;
         width: 90%;
-        height: 70%;
+        height: 80%;
         top: 48%;
         left: 45%;
         border-radius: 20px;
@@ -1062,6 +1062,9 @@ header {
 
     .main{
         padding: -900px 20px;
+    }
+    .main h1{
+        font-size: 2.8em;
     }
 
     .main-content h2{
