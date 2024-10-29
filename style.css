@@ -825,7 +825,7 @@ header {
         /* display: none; */
         position: fixed;
         width: 90%;
-        height: 80%;
+        height: 85%;
         top: 48%;
         left: 45%;
         border-radius: 20px;
@@ -839,7 +839,7 @@ header {
     .message-image{ 
         width: 300px;
         height: auto;
-        left: 10px;
+        left: 12px;
         top: 60px;
         border-radius: 15px;
         position: absolute;
