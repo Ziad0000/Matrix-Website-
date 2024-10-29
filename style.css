@@ -849,13 +849,13 @@ header {
         color: brown;
         position: fixed;
         bottom: 100px;
-        right: 160.2px;
+        right: 140px;
         font-size: 35px;
     }
     .box  p {
         font-size: 22.7px;
         color: brown;
-        height: 580px;
+        height: 535px;
         right: 5px;
         text-align: center;
         display: flex;
