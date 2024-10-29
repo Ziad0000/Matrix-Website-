@@ -825,8 +825,8 @@ header {
         /* display: none; */
         position: fixed;
         width: 90%;
-        height: 85%;
-        top: 48%;
+        height: 75%;
+        top: 42%;
         left: 45%;
         border-radius: 20px;
         margin: 20px;
@@ -839,7 +839,7 @@ header {
     .message-image{ 
         width: 300px;
         height: auto;
-        left: 12px;
+        left: 15px;
         top: 60px;
         border-radius: 15px;
         position: absolute;
@@ -849,7 +849,7 @@ header {
         color: brown;
         position: fixed;
         bottom: 100px;
-        right: 140px;
+        right: 150px;
         font-size: 35px;
     }
     .box  p {
