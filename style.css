@@ -755,6 +755,70 @@ header {
 
 /* Mobile styles */
 @media (max-width: 1026px){
+    
+.social-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a{
+    background-color:var(--base-variant);
+    padding: 1em;
+    border-radius: 55%;
+    height: 60px;
+    width: 60px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+
+.social-icons a svg{
+    height: 32px;
+    fill: var(--text-color);
+}
+
+.social-icons a:hover{
+    background-color: var(--accent-color);
+    fill: white;
+}
+
+.social-icons a::before{
+    content: attr(data-social);
+    position: absolute;
+    text-decoration: none;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 100px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    transform: translatey(-30px) rotate(25deg);
+    opacity: 0;
+    transition: 200ms ease;
+
+}
+.social-icons a::after{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid var(--accent-color);
+    transform: translateY(0) rotate(25deg);
+    opacity: 0;
+}
+
+.social-icons a:hover::before{
+    transform: translateY(-65px) rotate(0);
+    opacity: 1;
+}
+
+.social-icons a:hover::after{
+    transform: translateY(-42px) rotate(0);
+    opacity: 1;
+}
     .box{
         padding: 20px;
         background-color: white;
