@@ -820,7 +820,7 @@ header {
     opacity: 1;
 }
     .box{
-        padding: 20px;
+/*         padding: 20px; */
         background-color: white;
         /* display: none; */
         position: fixed;
