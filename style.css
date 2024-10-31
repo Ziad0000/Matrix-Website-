@@ -1161,6 +1161,7 @@ header {
         align-items: center;
     }
     .image-box {
+        display:none;
         max-width: 100%;
         max-height: 40%;
         bottom: 350px;
@@ -1175,13 +1176,14 @@ header {
     .image-box:hover .main-image{
         left: 55%;
     }
-    .main{
+/*     .main{
         padding: 460px 20px;
-    }
+    } */
 }
 
 @media(max-width:353px){
     .image-box {
+        display:none;
         max-width: 100%;
         max-height: 40%;
         bottom: 350px;
@@ -1190,9 +1192,9 @@ header {
         transform: translatex(-50%);
         transition: bottom 5s, left 5s;
     } 
-    .main{
+/*     .main{
         padding: 400px 20px;
-    }
+    } */
 }
 
 
