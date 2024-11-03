@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" type="x-icon" href="website_images/Matrix Logo.jpg">
+    <title>Ziad WebSite</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript"src="dark-theme.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div id="overlay"></div>
+    <div class="box">
+        <div class="text">
+        <img data-aos="zoom-in" data-aos-duration="1400" src="website_images/beast mode'.jpg" class="message-image">
+      <p data-aos="fade-right" data-aos-duration="1400" id="switch">Now you can switch to night theme to take best experience</p>
+      <h2 data-aos="fade-right" data-aos-duration="1400"><i class="fa-solid fa-arrow-down"></i></h2>
+      <span data-aos="zoom-in" data-aos-duration="1400" id="close2"><i class="fa-solid fa-x"></i></span>
+
+      <button id="language2" class="btn">
+        <option  data-aos="zoom-in" data-aos-duration="1400"  id="btn-en2" onclick="changeLanguage('en')">EN</option>
+         <option  data-aos="zoom-in" data-aos-duration="1400"   id="btn-ar2" onclick="changeLanguage('ar')">AR</option>
+     </button>
+        </div>
+      <button id="theme-dark" class="btn">
+        <svg data-aos="zoom-in" data-aos-duration="1400" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+        <svg data-aos="zoom-in" data-aos-duration="1400" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+    </button>
+    
+    <!-- <button id="language2" class="btn">
+        <option id="btn-en2" onclick="changeLanguage('en')">EN</option>
+         <option id="btn-ar2" onclick="changeLanguage('ar')">AR</option>
+     </button> -->
+    </div>
+
+    <header>
+
+        <span class="up"><i class="fa-solid fa-arrow-up"></i></span>
+
+       <a data-aos="fade-right" data-aos-duration="2000" id="zezo" href="#" class="logo">Ziad</a>
+
+       <span class="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </span>
+        <nav>
+            <span class="close"><i class="fa-solid fa-x"></i></span>
+            <a data-aos="fade-right" data-aos-duration="1400" id="content" href="#My Skills">My Skills</a>
+            <a data-aos="fade-right" data-aos-duration="1400" id="mshry3" href="#Projects">Projects</a>
+            <a data-aos="fade-right" data-aos-duration="1400" id="klmny" href="#Contact">Contact</a>
+
+            <button id="language" class="btn">
+                <option data-aos="zoom-in" data-aos-duration="1000" id="btn-en" onclick="changeLanguage('en')">EN</option>
+                 <option data-aos="zoom-in" data-aos-duration="1000" id="btn-ar" onclick="changeLanguage('ar')">AR</option>
+             </button>
+
+             <button id="theme-switch" class="btn">
+                <svg data-aos="zoom-in" data-aos-duration="1000" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+                <svg data-aos="zoom-in" data-aos-duration="1000" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+            </button>
+        </nav>
+    </header>
+
+    <div class="image-box">
+        <img src="website_images/red_pattern-removebg-preview.png" class="back-image">
+        <img src="website_images/ziad_2-removebg-preview.png" class="main-image">
+    </div>
+
+    <section class="main">
+        <div>
+            <h2 data-aos="fade-right" data-aos-duration="1900" id="ana" class="navy">Hello, I`m Ziad Mohamed<br>
+            <h1 data-aos="fade-right" data-aos-duration="1700" id="back" class="navy">Back End Developer</h1></h2>
+            <h3 data-aos="fade-right" data-aos-duration="1200" id="i" class="navy">I Build Web Development</h3>
+            <a  data-aos="fade-right" data-aos-duration="1100" href="#Projects" ><h5 id="view" class="main-btn">View My Work</h5></a>
+            <div class="social-icons">
+                <a data-aos="fade-right" data-aos-duration="1400" data-social="Discord" style="--accent-color:#7289d9" href="https://discord.gg/5wDFZV3utG"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Discord</title><path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/></svg></a>
+                <a data-aos="fade-right" data-aos-duration="1400" data-social="Github" style="--accent-color:#24292e" href="https://github.com/Ziad0000"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
+                <a data-aos="fade-right" data-aos-duration="1400" data-social="Instagram" style="--accent-color:#E1306C" href="https://www.instagram.com/ziad_zeineldin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+                <a data-aos="fade-right" data-aos-duration="1400" data-social="Spotify" style="--accent-color:#1DB954" href="https://open.spotify.com/user/31mowbslo7344udi6caacuaafa4y?si=a002e89d17e04e0f"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z"/></svg></a> 
+            </div>
+
+            </div>
+    </section>
+
+    <section  class="cards" id="My Skills">
+        <section id="My Skills"></section>
+        <h2 data-aos="fade-right" data-aos-duration="1400" id="s" class="title">My Skills</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon1">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="info">
+                    <h3 data-aos="fade-right" data-aos-duration="1400" id="web" class="navy">Web Development</h3>
+                    <p data-aos="fade-right" data-aos-duration="1400" id="web2" class="navy">Web development involves creating, building, and maintaining websites and web applications.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon1">
+                    <i class="fas fa-user-secret"></i>
+                </div>
+                <div class="info">
+                    <h3 data-aos="fade-right" data-aos-duration="1400" id="hack" class="navy">Ethical hacking</h3>
+                    <p data-aos="fade-right" data-aos-duration="1400" id="hack2" class="navy">Ethical hacking, also known as White-Hat Hacking, involves using hacking techniques to identify and fix security vulnerabilities in computer systems, networks, and applications.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon1">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="info">
+                    <h3 data-aos="fade-right" data-aos-duration="1400" id="cp" class="navy">Computer Programmer</h3>
+                    <p data-aos="fade-right" data-aos-duration="1400" id="cp2" class="navy"> Computer programmers write, modify, and test code and scripts that allow computer software and applications to function properly.</p>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <section class="projects" id="projects">
+        <section id="Projects"></section>
+        <h2 data-aos="fade-right" data-aos-duration="1400" id="p" class="title">Projects</h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-video">
+
+                </div>
+                <div class="project-info">
+                    <p class="project-category"></p>
+                    <strong class="project-title">
+                        <div class="videos">
+                        <video width="340px" height="400px"  controls>
+                            <source src="Dinosuor.mp4" type="video/mp4">
+                            <source src="" type="video/ogg">
+                        </video>
+                        </div>
+                        <a data-aos="fade-right" data-aos-duration="1400" id="azay" href="#" class="more-details" class="navy">How To Make calculator By Python</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+
+                </div>
+                <div class="project-info">
+                    <p class="project-category"></p>
+                    <strong class="project-title">
+                        <video width="340px" height="400px"  controls>
+                            <source src="Dinosuor.mp4" type="video/mp4">
+                            <source src="" type="video/ogg">
+                        </video>
+                        <a data-aos="fade-right" data-aos-duration="1400" id="azay2" href="#" class="more-details" class="navy">How To Make Clock By Python</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+
+                </div>
+                <div class="project-info">
+                    <p class="project-category"></p>
+                    <strong class="project-title">
+                        <video width="340px" height="400px"  controls>
+                            <source src="Dinosuor.mp4" type="video/mp4">
+                            <source src="" type="video/ogg">
+                        </video>
+                        <a data-aos="fade-right" data-aos-duration="1400" id="azay3" href="#" class="more-details" class="navy">How To Make QrCode By VS</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+
+                </div>
+                <div class="project-info">
+                    <p class="project-category"></p>
+                    <strong class="project-title">
+                        <video width="340px" height="400px"  controls>
+                            <source src="Dinosuor.mp4" type="video/mp4">
+                            <source src="" type="video/ogg">
+                        </video>
+                        <a data-aos="fade-right" data-aos-duration="1400" id="azay4" href="#" class="more-details" class="navy">How to make the dinosaur running without dying</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+
+                </div>
+                <div class="project-info">
+                    <p class="project-category"></p>
+                    <strong class="project-title">
+                        <video width="340px" height="400px"  controls>
+                            <source src="Dinosuor.mp4" type="video/mp4">
+                            <source src="" type="video/ogg">
+                        </video>
+                        <a data-aos="fade-right" data-aos-duration="1400" id="azay5" href="#" class="more-details" class="navy">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+
+                </div>
+                <div class="project-info">
+                    <p class="project-category"></p>
+                    <strong class="project-title">
+                        <video width="340px" height="400px"  controls>
+                            <source src="Dinosuor.mp4" type="video/mp4">
+                            <source src="" type="video/ogg">
+                        </video>
+                        <a data-aos="fade-right" data-aos-duration="1400" id="azay6" href="#" class="more-details" class="navy">More details</a>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Contact" id="Contact">
+        <section id="Contact"></section>
+        <h2 data-aos="fade-right" data-aos-duration="1400" id="c" class="title">Contact</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon1">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3 data-aos="fade-right" data-aos-duration="1400" id="phone" class="navy">Phone</h3>
+                    <p data-aos="fade-right" data-aos-duration="1400" class="navy">+20122222222</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon1">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3 data-aos="fade-right" data-aos-duration="1400" id="e" class="navy">Email</h3>
+                    <p data-aos="fade-right" data-aos-duration="1400" class="navy">business@Ziad.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p data-aos="fade-right" data-aos-duration="1400" id="design" class="footer-title">Designed & Developed by @</p>
+        <div>
+            <a data-aos="fade-right" data-aos-duration="1400" id="ziad" href="#" class="ziad">Ziad Mohamed</a>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:1,
+      });
+    </script>
+
+</body>
+</html>
