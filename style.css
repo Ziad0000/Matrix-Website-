@@ -1301,3 +1301,42 @@ header {
     }
 }
 
+/* For tablets (portrait and landscape) */
+@media (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+    .main h1 {
+        font-size: 2.5em;
+    }
+    .content {
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .main h1 {
+        font-size: 2em;
+    }
+    .content {
+        padding: 10px;
+    }
+}
+
+/* For small mobile devices */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+    .main h1 {
+        font-size: 1.8em;
+    }
+    .content {
+        padding: 5px;
+    }
+}
